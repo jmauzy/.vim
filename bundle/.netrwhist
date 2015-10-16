@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/mauzy/exercism/javascript/bob'
+let g:netrw_dirhist_2='/Users/mauzy/java/labs'
+let g:netrw_dirhist_3='/Users/mauzy/java'
+let g:netrw_dirhist_4='/Users/mauzy/java/labs/4'
+let g:netrw_dirhist_5='/Users/mauzy/java/labs/1'
+let g:netrw_dirhist_6='/Users/mauzy/java/labs/4'
