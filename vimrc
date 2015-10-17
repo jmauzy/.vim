@@ -1,5 +1,8 @@
 set nocompatible
-silent! call pathogen#infect()
+source ~/.vim/bundle/pathogen/autoload/pathogen.vim
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+call pathogen#infect()
 
 set laststatus=2
 set runtimepath^=~/.vim/bundle/
