@@ -2,7 +2,6 @@ Repository for Vim Settings
 
 Instructions to restore:
 
--clone/pull to ~/.vim
-
--create ssymbolic link in root directory to .vimrc file with:
+cd ~/
+vim clone --recursive http://github.com/apositivejam/vim.git
 ln -s ~/.vim/vimrc ~/.vimrc
