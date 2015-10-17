@@ -4,3 +4,12 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = http://github.com/tpope/vim-pathogen.git
+[submodule "bundle/pathogen"]
+	path = bundle/pathogen
+	url = http://github.com/tpope/vim-pathogen.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = http://github.com/bling/vim-airline
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
