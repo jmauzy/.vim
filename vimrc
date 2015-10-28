@@ -21,3 +21,8 @@ set shiftwidth=2
 set expandtab
 set smarttab
 set softtabstop=0
+
+"jshint2 settings
+let jshint2_save = 1
+let jshint2_read = 1
+let jshint2_confirm = 0
