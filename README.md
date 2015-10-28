@@ -8,4 +8,4 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 Adding a repo as a submodule:
 
-git submodule add http://github.com/user/repo.git bundle/repo
+git submodule add https://github.com/user/repo.git bundle/repo

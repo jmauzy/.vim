@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/mauzy/fcc/voting-app'
 let g:netrw_dirhist_2='/Users/mauzy/Sites/thinkster-mean-tutorial'
 let g:netrw_dirhist_3='/Users/mauzy/java/labs/2'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/Users/mauzy/.vim'
 let g:netrw_dirhist_5='/Users/mauzy/.vim/.git'
 let g:netrw_dirhist_6='/Users/mauzy/.vim'
 let g:netrw_dirhist_7='/Users/mauzy/.vim/colors'
+let g:netrw_dirhist_8='/Users/mauzy/.vim'
