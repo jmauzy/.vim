@@ -11,9 +11,11 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 set laststatus=2
 set runtimepath^=~/.vim/bundle/
 syntax on
+colorscheme vendetta
 let mapleader="/ "
 
 "spacing
+set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
