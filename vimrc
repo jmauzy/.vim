@@ -11,8 +11,8 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 set laststatus=2
 set runtimepath^=~/.vim/bundle/
 syntax on
+au BufNewFile,BufRead *.ejs set filetype=html
 colorscheme vendetta
-let mapleader="/ "
 
 "spacing
 set smartindent
@@ -26,3 +26,11 @@ set softtabstop=0
 let jshint2_save = 1
 let jshint2_read = 1
 let jshint2_confirm = 0
+
+"leader settings
+let mapleader=" "
+noremap <Leader>l :JSHint<CR>
+noremap <Leader>; <esc>A;
+
+"vim-javascript setting
+let javascript_enable_domhtmlcss = 1
