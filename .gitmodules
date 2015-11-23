@@ -22,3 +22,9 @@
 [submodule "/Users/mauzy/.vim/bundle/vim-javascript"]
 	path = /Users/mauzy/.vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "bundle/vim-indent-guides"]
+	path = bundle/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "bundle/js-beautify"]
+	path = bundle/js-beautify
+	url = https://github.com/maksimr/vim-jsbeautify.git
