@@ -14,6 +14,9 @@ syntax on
 au BufNewFile,BufRead *.ejs set filetype=html
 colorscheme vendetta
 
+"relative line numbering with current line number enabled
+set relativenumber
+
 "spacing
 set smartindent
 set tabstop=2
