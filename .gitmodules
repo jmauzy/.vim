@@ -28,3 +28,15 @@
 [submodule "bundle/js-beautify"]
 	path = bundle/js-beautify
 	url = https://github.com/maksimr/vim-jsbeautify.git
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "bundle/vim-bundler"]
+	path = bundle/vim-bundler
+	url = git://github.com/tpope/vim-bundler.git
+[submodule "bundle/vim-jsx"]
+	path = bundle/vim-jsx
+	url = git://github.com/mxw/vim-jsx.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = http://github.com/scrooloose/syntastic.git

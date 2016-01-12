@@ -9,6 +9,7 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 set laststatus=2
+set backspace=2
 set runtimepath^=~/.vim/bundle/
 syntax on
 au BufNewFile,BufRead *.ejs set filetype=html
@@ -25,15 +26,23 @@ set expandtab
 set smarttab
 set softtabstop=0
 
-"jshint2 settings
-let jshint2_save = 1
-let jshint2_read = 1
-let jshint2_confirm = 0
+"vim-jsx settings
+let g:jsx_ext_required = 0
+
+"systastic settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['eslint']
 
 "leader settings
 let mapleader=" "
 noremap <Leader>q :q<CR>
-noremap <Leader>l :JSHint<CR>
+noremap <Leader>l :SyntasticCheck<CR>
 noremap <Leader>; <esc>A;
 
 "vim-javascript setting
