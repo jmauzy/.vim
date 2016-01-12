@@ -14,12 +14,13 @@ set runtimepath^=~/.vim/bundle/
 syntax on
 au BufNewFile,BufRead *.ejs set filetype=html
 colorscheme vendetta
+filetype plugin indent on
 
 "relative line numbering with current line number enabled
 set relativenumber
 
 "spacing
-set smartindent
+set autoindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
