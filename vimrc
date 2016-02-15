@@ -15,6 +15,7 @@ syntax on
 au BufNewFile,BufRead *.ejs set filetype=html
 colorscheme vendetta
 filetype plugin indent on
+set hlsearch
 
 "relative line numbering with current line number enabled
 set relativenumber
