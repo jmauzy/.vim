@@ -4,6 +4,13 @@ call pathogen#helptags()
 call pathogen#infect()
 set runtimepath^=~/.vim/bundle/
 
+"leader settings
+let mapleader=" "
+noremap <Leader>q :q<CR>
+"noremap <Leader>l :SyntasticCheck<CR>
+noremap <Leader>; <esc>A;
+noremap <Leader>r :!rake<CR>
+
 "nerdtree commands
 map <C-n> :NERDTreeToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
@@ -31,11 +38,12 @@ set softtabstop=0
 
 "vim-jsx settings
 let g:jsx_ext_required = 0
-" RSpec.vim mappings
-map <Leader>t :call RunCurrentSpecFile()<CR>
-map <Leader>s :call RunNearestSpec()<CR>
-map <Leader>l :call RunLastSpec()<CR>
-map <Leader>a :call RunAllSpecs()<CR>
+
+"RSpec.vim mappings
+noremap <Leader>t :call RunCurrentSpecFile()<CR>
+noremap <Leader>s :call RunNearestSpec()<CR>
+noremap <Leader>l :call RunLastSpec()<CR>
+noremap <Leader>a :call RunAllSpecs()<CR>
 
 "systastic settings
 set statusline+=%#warningmsg#
@@ -46,13 +54,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['eslint']
-
-"leader settings
-let mapleader=" "
-noremap <Leader>q :q<CR>
-"noremap <Leader>l :SyntasticCheck<CR>
-noremap <Leader>; <esc>A;
-noremap <Leader>r :!rake<CR>
 
 "vim-javascript setting
 let javascript_enable_domhtmlcss = 1
