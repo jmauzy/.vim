@@ -16,6 +16,7 @@ au BufNewFile,BufRead *.ejs set filetype=html
 colorscheme vendetta
 filetype plugin indent on
 set hlsearch
+runtime macros/matchit.vim
 
 "relative line numbering with current line number enabled
 set relativenumber
@@ -46,6 +47,7 @@ let mapleader=" "
 noremap <Leader>q :q<CR>
 noremap <Leader>l :SyntasticCheck<CR>
 noremap <Leader>; <esc>A;
+noremap <Leader>r :!rake<CR>
 
 "vim-javascript setting
 let javascript_enable_domhtmlcss = 1
