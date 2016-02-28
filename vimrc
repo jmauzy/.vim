@@ -2,6 +2,7 @@ set nocompatible
 "pathogen commands
 call pathogen#helptags()
 call pathogen#infect()
+set runtimepath^=~/.vim/bundle/
 
 "nerdtree commands
 map <C-n> :NERDTreeToggle<CR>
@@ -10,7 +11,6 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 set laststatus=2
 set backspace=2
-set runtimepath^=~/.vim/bundle/
 syntax on
 au BufNewFile,BufRead *.ejs set filetype=html
 colorscheme vendetta
