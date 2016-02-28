@@ -31,6 +31,11 @@ set softtabstop=0
 
 "vim-jsx settings
 let g:jsx_ext_required = 0
+" RSpec.vim mappings
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
 
 "systastic settings
 set statusline+=%#warningmsg#
@@ -45,7 +50,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 "leader settings
 let mapleader=" "
 noremap <Leader>q :q<CR>
-noremap <Leader>l :SyntasticCheck<CR>
+"noremap <Leader>l :SyntasticCheck<CR>
 noremap <Leader>; <esc>A;
 noremap <Leader>r :!rake<CR>
 
